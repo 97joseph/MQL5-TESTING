@@ -21,7 +21,7 @@ void OnTick()
  ArraySetAsSeries(LowerBandArray,true);
  
  //Define the Bollinger bands
- int BollingeBandsDefinition=iBands(_Symbol,_Period,20,0,2,PRICE_CLOSE);
+ int BollingeBandsDefinition=iBands(_Symbol,_Period,10,0,2,PRICE_CLOSE);
  
  //Copy the price EA definition into the array for the lower and upper bands
  CopyBuffer(BollingeBandsDefinition,1,0,3,UpperBandArray);
@@ -48,11 +48,11 @@ void OnTick()
    
    //sell 10 microlot 
    if(entry=="sell" && PositionsTotal()<1)
-   trade.Sell(0.10,NULL,Bid,0,(Bid-150*_Point),NULL);
+   trade.Sell(0.10,NULL,Bid,0,(Bid-20*_Point),NULL);
    
    //buy 10 microlot
    if(entry=="buy" && PositionsTotal()<1)
-   trade.Buy(0.10,NULL,Ask,0,(Ask+150*_Point),NULL);
+   trade.Buy(0.10,NULL,Ask,0,(Ask+20*_Point),NULL);
    
    //Chart output
    Comment("Entry signal is ",entry); 
