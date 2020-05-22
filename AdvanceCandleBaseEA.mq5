@@ -10,6 +10,8 @@ input int StopLossPips=20;
 input int SpreadCondition=20;
 input int MaximumPostions=10;
 input int PositionsToHold=10;
+input int MaxBuyPositions=10;
+input int MaxSellPositions=10;
 
 void OnTick()
   {
@@ -51,10 +53,10 @@ void OnTick()
   
   
    //Sell and buy conditions met
- if(signal=="sell" && PositionsTotal()<MaximumPostions)
+ if(signal=="sell" && PositionsTotal()<MaxSellPositions)
  trade.Sell(0.10,NULL,Bid,(Bid+TakeProfitPips*_Point),(Bid-StopLossPips*_Point),NULL);
  
- if(signal=="buy" && PositionsTotal()<MaximumPostions)
+ if(signal=="buy" && PositionsTotal()<MaxBuyPositions
   trade.Buy(0.10,NULL,Ask,(Ask+TakeProfitPips*_Point),(Ask-StopLossPips*_Point),NULL);
      
   }
