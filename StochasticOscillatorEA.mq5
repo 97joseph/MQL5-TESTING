@@ -52,11 +52,11 @@ signal="sell";
 
 //Sell 10 microlot
 if(signal=="sell" && PositionsTotal()<1)
-trade.Sell(0.10,NULL,Bid,0,(Bid-150*_Point),NULL);
+trade.Sell(0.3,NULL,Bid,0,(Bid-20*_Point),NULL);
 
 //Buy 10 microlot
 if(signal=="buy" && PositionsTotal()<1)
-trade.Buy(0.10,NULL,Ask,0,(Ask+150*_Point),NULL);
+trade.Buy(0.3,NULL,Ask,0,(Ask+20*_Point),NULL);
 
 //Create a chart output
 Comment("The current signal is: ",signal);
