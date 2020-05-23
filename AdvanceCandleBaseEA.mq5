@@ -53,10 +53,12 @@ void OnTick()
   
   
    //Sell and buy conditions met
+ if(PositionsTotal()<PositionsToHold)
  if(signal=="sell" && PositionsTotal()<MaxSellPositions)
  trade.Sell(0.10,NULL,Bid,(Bid+TakeProfitPips*_Point),(Bid-StopLossPips*_Point),NULL);
  
- if(signal=="buy" && PositionsTotal()<MaxBuyPositions
+ if(PositionsTotal()<PositionsToHold)
+ if(signal=="buy" && PositionsTotal()<MaxBuyPositions)
   trade.Buy(0.10,NULL,Ask,(Ask+TakeProfitPips*_Point),(Ask-StopLossPips*_Point),NULL);
      
   }
