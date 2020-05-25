@@ -1,11 +1,9 @@
-//+------------------------------------------------------------------+
-//|                                                        roman.mq5 |
-//|                                       Copyright 2013,Viktor Moss |
-//|                                              http://www.mql5.com |
-//+------------------------------------------------------------------+
-#property copyright "Copyright 2013,Viktor Moss"
-#property link      "https://login.mql5.com/users/vicmos"
-#property version   "1.00"
+//Condtions of the EA
+//The idea is to buy 0.01 lots at the current price
+//Once the price increases by say 46 points the deal is crossed with a profit
+//The repeat etc
+//But if the price goes in the wrong direction say 31 points the deal is closed (but with a loss) and a sell deal is opened
+//After the price makes 46 points down ,close with a profit or if it goes 31 up ,close with a negative result
 
 #include <Trade\Trade.mqh>
 //--- input parameters
