@@ -1,2 +1,0 @@
-4.3
-Added Spread based Inter-trade-Pips mechanism
