@@ -1,8 +1,4 @@
-//+------------------------------------------------------------------+
-//|                                                      starter.mq5 |
-//|                                          Copyright 2012, Integer |
-//|                          https://login.mql5.com/ru/users/Integer |
-//+------------------------------------------------------------------+
+
 #property copyright "Integer"
 #property link "https://login.mql5.com/ru/users/Integer"
 #property description "The Expert Advisor developed by unknown author is rewritten from MQL4 and was originally published here http://codebase.mql4.com/ru/461 by Collector (http://www.mql4.com/ru/users/Collector)"
