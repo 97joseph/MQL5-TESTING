@@ -1,12 +1,3 @@
-//+------------------------------------------------------------------+
-//|                                                 TrendCapture.mq5 |
-//|                                          Copyright 2012, Integer |
-//|                          https://login.mql5.com/ru/users/Integer |
-//+------------------------------------------------------------------+
-#property copyright "Integer"
-#property link "https://login.mql5.com/ru/users/Integer"
-#property description "Rewritten from MQL4. Link to the original publication - http://codebase.mql4.com/ru/353, author: Reshetov (http://www.mql4.com/ru/users/Reshetov)"
-#property version   "1.00"
 
 //--- input parameters
 #include <Trade/Trade.mqh>
