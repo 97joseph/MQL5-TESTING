@@ -1,12 +1,3 @@
-//+------------------------------------------------------------------+
-//|                                                     Champion.mq5 |
-//|                                             Copyright 2012, AM2. |
-//|                                             www.forexsystems.biz |
-//+------------------------------------------------------------------+
-#property copyright "Copyright 2012, AM2."
-#property link      "http://www.forexsystems.biz"
-#property version   "1.07"
-
 //--- external variables
 input int TP        = 150;   // Take Profit
 input int SL        = 50;    // Stop Loss
