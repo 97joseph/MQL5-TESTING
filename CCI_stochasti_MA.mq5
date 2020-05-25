@@ -1,13 +1,3 @@
-//+------------------------------------------------------------------+
-//|                                                        Kloss.mq5 |
-//|                                          Copyright 2012, Integer |
-//|                          https://login.mql5.com/ru/users/Integer |
-//+------------------------------------------------------------------+
-
-#property copyright "Integer"
-#property link "https://login.mql5.com/ru/users/Integer"
-#property description "Expert rewritten from MQL4, the author is - http://www.mql4.com/ru/users/klopka, link to original - http://codebase.mql4.com/ru/3692"
-#property version   "1.00"
 
 #include <Trade/Trade.mqh>
 #include <Trade/SymbolInfo.mqh>
