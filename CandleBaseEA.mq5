@@ -31,10 +31,11 @@ void OnTick()
   //Declaration of end candle and startcandle
   //Status of the current to gauge the direction
   
-   double Difference= PriceInfo[10].close- PriceInfo[1].close;
+   double Difference= PriceInfo[9].close- PriceInfo[0].close;
 
 
   //Trend direction According to the zero reference point
+  
   if(Difference>0)
   Trend="Uptrend";
   if(Difference<0)
