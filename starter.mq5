@@ -1,13 +1,5 @@
 
-#property copyright "Integer"
-#property link "https://login.mql5.com/ru/users/Integer"
-#property description "The Expert Advisor developed by unknown author is rewritten from MQL4 and was originally published here http://codebase.mql4.com/ru/461 by Collector (http://www.mql4.com/ru/users/Collector)"
-#property version   "1.00"
 
-/*
-   The Expert Advisor is based on the following indicators: Laguerre (http://www.mql5.com/ru/code/432), CCI and MA.
-   
-*/
 
 #define IND1 "Laguerre"
 
