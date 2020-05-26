@@ -8,6 +8,8 @@ input int DirectionalPips=10;
 input int TakeProfitPips=20;
 input int StopLossPips=20;
 input double LotSize=0.10;
+input int MaximumPositions=10;
+
 
 
 void OnTick()
@@ -46,10 +48,11 @@ void OnTick()
   
    //Sell and buy conditions met
  if(signal=="sell" && PositionsTotal()<1)
- trade.Sell(LotSize,NULL,Bid,(Bid+TakeProfitPips*_Point),(Bid-StopLossPips*_Point),NULL);
+ trade.Sell(LotSize,NULL,Bid,(Bid+TakeProfitPips*_Point),(Bid-StopLossPips*_Point),"Sell condition met");
  
  
+ //Buy Condition
  if(signal=="buy" && PositionsTotal()<1)
-  trade.Buy(LotSize,NULL,Ask,(Ask+TakeProfitPips*_Point),(Ask-StopLossPips*_Point),NULL);
+  trade.Buy(LotSize,NULL,Ask,(Ask+TakeProfitPips*_Point),(Ask-StopLossPips*_Point),"Buy condition met");
      
   }
