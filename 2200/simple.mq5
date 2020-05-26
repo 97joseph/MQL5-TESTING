@@ -1,11 +1,3 @@
-//+------------------------------------------------------------------+
-//|                                                        roman.mq5 |
-//|                                       Copyright 2013,Viktor Moss |
-//|                                              http://www.mql5.com |
-//+------------------------------------------------------------------+
-#property copyright "Copyright 2013,Viktor Moss"
-#property link      "https://login.mql5.com/users/vicmos"
-#property version   "1.00"
 
 #include <Trade\Trade.mqh>
 //--- input parameters
@@ -61,6 +53,7 @@ void OnTick()
       if(PositionGetInteger(POSITION_TYPE)==POSITION_TYPE_SELL)
         {
          pr=(PositionGetDouble(POSITION_PRICE_OPEN)-SymbolInfoDouble(_Symbol,SYMBOL_ASK))/_Point;
+
          if(pr>=TP)
            {
             trade.PositionClose(_Symbol);
