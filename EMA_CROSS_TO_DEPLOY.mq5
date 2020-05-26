@@ -1,14 +1,3 @@
-//+------------------------------------------------------------------+
-//|                           EMA_CROSS(barabashkakvn's edition).mq5 |
-//|                                                      Coders Guru |
-//|                                         http://www.forex-tsd.com |
-//+------------------------------------------------------------------+
-//+------------------------------------------------------------------+
-//| TODO: Add Money Management routine                               |
-//+------------------------------------------------------------------+
-#property copyright "Coders Guru"
-#property link      "http://www.forex-tsd.com"
-
 #include <Trade\PositionInfo.mqh>
 #include <Trade\Trade.mqh>
 #include <Trade\SymbolInfo.mqh>  
