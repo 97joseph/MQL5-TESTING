@@ -1,15 +1,5 @@
-//+------------------------------------------------------------------+
-//|                                               ExpBuySellSide.mq5 |
-//|                           Copyright 2016, Roberto Jacobs (3rjfx) |
-//|                              https://www.mql5.com/en/users/3rjfx |
-//+------------------------------------------------------------------+
-#property copyright "Copyright 2016, Roberto Jacobs (3rjfx) ~ By 3rjfx ~ Created: 2016/12/07"
-#property link      "http://www.mql5.com"
-#property link      "https://www.mql5.com/en/users/3rjfx"
-#property version   "1.00"
-//--
-#property description "The ExpBuySellSide is the MT5 Expert Advisor based on the ATRStops and StepUpDown Indicator."
-//---
+//#property description "The ExpBuySellSide is the MT5 Expert Advisor based on the ATRStops and StepUpDown Indicator."
+
 //+------------------------------------------------------------------+
 //|                             Include                              |
 //+------------------------------------------------------------------+
