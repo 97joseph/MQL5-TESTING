@@ -55,5 +55,9 @@ void OnTick()
  //Buy Condition
  if(signal=="buy" && PositionsTotal()<1)
   trade.Buy(LotSize,NULL,Ask,(Ask+TakeProfitPips*_Point),(Ask-StopLossPips*_Point),"Buy condition met");
+  
+  //Postions management 
+  if(PositionsTotal()<MaximumPositions)
+  trade.Close()
      
   }
