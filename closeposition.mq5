@@ -1,12 +1,4 @@
-//+------------------------------------------------------------------+
-//|                                                ClosePosition.mq5 |
-//|                           Copyright © 2012,     Nikolay Kositsin | 
-//|                              Khabarovsk,   farria@mail.redcom.ru | 
-//+------------------------------------------------------------------+  
-#property copyright "Copyright © 2012, Nikolay Kositsin"
-#property link "farria@mail.redcom.ru" 
-//---- script version number
-#property version   "1.01" 
+
 //---- show the input parameters
 #property script_show_inputs
 //+----------------------------------------------+
