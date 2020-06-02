@@ -1,11 +1,3 @@
-//+------------------------------------------------------------------+
-//|                                                  StopAndTake.mq5 |
-//|                                           Copyright 2016, melnik |
-//|                             https://www.mql5.com/ru/users/melnik |
-//+------------------------------------------------------------------+
-#property copyright "Copyright 2016, melnik"
-#property link      "https://www.mql5.com/ru/users/melnik"
-#property version   "1.00"
 #include <Trade\PositionInfo.mqh>
 #include <Trade\Trade.mqh>
 CPositionInfo pos;
