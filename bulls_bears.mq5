@@ -1,13 +1,3 @@
-//+------------------------------------------------------------------+
-//|                                                  bulls_bears.mq5 |
-//|                                       Copyright 2015,Viktor Moss |
-//|                           https://login.mql5.com/ru/users/vicmos |
-//+------------------------------------------------------------------+
-#property copyright "Copyright 2015,Viktor Moss"
-#property link      "https://login.mql5.com/ru/users/vicmos"
-#property version   "1.00"
-#property script_show_inputs
-
 input int NumCandles=1000;
 //+------------------------------------------------------------------+
 //| Script program start function                                    |
