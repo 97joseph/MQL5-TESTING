@@ -1,8 +1,4 @@
-#property copyright           "Mokara"
-#property link                "https://www.mql5.com/en/users/mokara"
-#property description         "Scalp Random"
-#property version             "1.0"
-#property script_show_inputs  true
+
 #define MAGIC 999
 
 input double rateTP = 1;   //Take Profit Rate
