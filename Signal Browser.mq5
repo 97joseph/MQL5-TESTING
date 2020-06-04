@@ -1,17 +1,13 @@
 //+------------------------------------------------------------------+
+//|                                                      ProjectName |
+//|                                      Copyright 2020, CompanyName |
+//|                                       http://www.companyname.net |
 //+------------------------------------------------------------------+
-//|                                                   TestScript.mq5 |
-//|                                                  KiteBoarder Pro |
-//|                                                       nolinkHere |
-//+------------------------------------------------------------------+
-#property copyright "KiteBoarder Pro"
-#property link      "nolinkHere"
-#property version   "1.00"
-#property strict
+
 #property script_show_inputs
 
 input double MinROI=0;                          //Minimum acceptable ROI
-input double MaxDrawDown=10;                    //Max Acceptable DrawDown 
+input double MaxDrawDown=10;                    //Max Acceptable DrawDown
 input double MinGain=50;                        //Min Acceptable Gain
 input double MaxPrice=50;                       //Max Acceptable Price
 input datetime StartedBefore="2019.01.01";      //Signals Started on or before
@@ -70,3 +66,4 @@ Simple Script to help Selecting a signal based on parameters.
 
 User will input the parameters and the script will look up the Signals Base, 1 by 1 to find the matches.
 */
+//+------------------------------------------------------------------+
