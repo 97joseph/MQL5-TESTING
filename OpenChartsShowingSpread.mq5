@@ -31,3 +31,10 @@ void OnStart()
    
 
 }
+/*First script selects symbols having spread below specified value on the marketwatch, then opens corresponding charts by appyling timeframe and template stated.
+To Open Charts;
+
+Double-click or drag-drop OpenCharts on a chart.
+Enter inputs. (Timeframe, Template, Spread)
+Click Ok.
+*/
