@@ -1,8 +1,4 @@
-#property copyright           "Mokara"
-#property link                "https://www.mql5.com/en/users/mokara"
-#property description         "Close Scalps"
-#property version             "1.0"
-#property script_show_inputs  true
+
 
 input bool Profit = false;   //Close Profit Positions
 
