@@ -65,3 +65,24 @@ void OnStart()
       return;      
    }
 }
+
+/*This script opens random positions at market price on all marketwatch symbols having spread below specified value. Volume, take-profit and stop-loss levels are determined by user inputs.
+
+USAGE
+
+Right-Click marketwatch and Show All symbols.
+Wait symbols to update their bid/ask values.
+Open a chart.
+Double-Click or Drag-Drop ScalpAll script on a chart.
+Enter inputs.
+Take-profit and stop-loss levels are calculated by multiplying input values with current spread.
+Spread filter neglects symbols having high spread which is unsuitable for scalping.
+New positions will be opened by clicking OK.
+To close positions use CloseScalps script. To close only profited positions, set close profit positions input to true. otherwise all scalp positions will be closed.
+
+WARNING
+Use only on demo account.
+Positions of some symbols may not be opened due to market conditions. Check experts tab.
+Magic number 999 is unique for this script. Pay attention for conflicts.
+Close last position by manually if it's not closed by script.
+*/
