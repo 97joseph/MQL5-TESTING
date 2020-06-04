@@ -63,3 +63,10 @@ void OnStart()
 
   }
 //+------------------------------------------------------------------+
+/*
+Simple Script to help Selecting a signal based on parameters.
+
+
+
+User will input the parameters and the script will look up the Signals Base, 1 by 1 to find the matches.
+*/
