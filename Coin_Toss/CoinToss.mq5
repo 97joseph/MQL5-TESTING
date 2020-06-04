@@ -69,3 +69,19 @@ void OnStart()
    DrawHLine("TP", clrLime, STYLE_SOLID, tReq.tp);
    DrawHLine("SL", clrRed, STYLE_SOLID, tReq.sl);  
 }
+/*ASSUMPTIONS
+
+Market conditions are indeterminable. Billions of factors are affecting market in different ways.
+At any instant evenly spaced upward or downward movements have same probability of occurence like in coin toss game.
+USAGE
+Double-Click or Drag-Drop on an active chart.
+Script opens a buy or sell order randomly. 
+Volume and Exit Levels are determined by user inputs.
+Use DeleteObjects to clear setup lines after closing order.
+HOW TO WIN IN A TWO PROBABILITY GAME
+
+Open order randomly. In equally spaced TP and SL you have 50% wining probability.
+Until hitting SL, you will have chances to close order with smaller profits unless unluckily you catched the top/bottom.
+To increase winning probability SL range should be greater than TP range.
+In short term count of wins will be more than losses. In long term they will be equal. (Zero Sum Game)
+*/
