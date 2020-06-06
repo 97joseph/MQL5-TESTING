@@ -1,11 +1,3 @@
-//+------------------------------------------------------------------+
-//|                                                         Sell.mq5 |
-//|                                     Copyright 2013, Marcus Wyatt |
-//|                                        http://www.exceptionz.com |
-//+------------------------------------------------------------------+
-#property copyright "Copyright 2013, Marcus Wyatt"
-#property link      "http://www.exceptionz.com"
-#property version   "1.00"
 
 #property script_show_inputs
 
