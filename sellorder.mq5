@@ -128,3 +128,9 @@ double AccountPercentStopPips(double lots) {
     return (stoploss);
 }
 //+------------------------------------------------------------------+
+/*When you drag this script onto the chart, it will calculate the price where you drop the script and use this price to figure out if a Sell Stop or Sell Limit pending order should be placed.
+
+The stop loss is calculated from the Risk Percentage input. The take profit is then calculated using the stop loss and Reward Ratio.
+
+It is a pretty simple script, so enjoy!
+*/
