@@ -22,10 +22,11 @@ input int MAXIMUMPOSITIONS=3;
 input double DIRECTIONALPIPS=10;
 input double TAKEPROFITPIPS=20;
 input double STOPLOSSPIPS=20;
+input double SLIPPAGE=20;
 
 
 
-void OnStart()
+void OnTick()
   {
 //---
    int bulls=0,bears=0;
