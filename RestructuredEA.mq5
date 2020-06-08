@@ -2,6 +2,14 @@
 //Adjust for spread so that profit and loss is acheieved afeter overcoming spread
 //Adjust for multiple positions as a user input
 
+//Library include files
+
+#include <Trade\PositionInfo.mqh>
+#include <Trade\Trade.mqh>
+#include <Trade\SymbolInfo.mqh>  
+CPositionInfo  m_position;                   // trade position object
+CTrade         m_trade;                      // trading object
+CSymbolInfo    m_symbol;                     // symbol info object
 
 
 
