@@ -28,7 +28,7 @@ void OnTick()
   
   int PriceData=CopyRates(_Symbol,_Period,0,10,PriceInfo);
   
-  //Declaration of end candle and startcandle
+  
   //Status of the current to gauge the direction
   
    double Difference= PriceInfo[9].close- PriceInfo[0].close;
