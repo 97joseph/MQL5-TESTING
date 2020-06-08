@@ -7,9 +7,9 @@
 #include <Trade\PositionInfo.mqh>
 #include <Trade\Trade.mqh>
 #include <Trade\SymbolInfo.mqh>  
-CPositionInfo  m_position;                   // trade position object
-CTrade         m_trade;                      // trading object
-CSymbolInfo    m_symbol;                     // symbol info object
+CPositionInfo  M_position;                   // trade position object
+CTrade         Trade;                      // trading object
+CSymbolInfo    M_symbol;                     // symbol info object
 
 
 
