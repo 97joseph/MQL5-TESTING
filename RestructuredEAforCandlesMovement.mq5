@@ -23,6 +23,7 @@ input double DIRECTIONALPIPS=10;
 input double TAKEPROFITPIPS=20;
 input double STOPLOSSPIPS=20;
 input double SLIPPAGE=20;
+input double LOTSIZE=0.20;
 
 
 
