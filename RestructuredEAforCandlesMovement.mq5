@@ -29,7 +29,14 @@ input double LOTSIZE=0.20;
 
 void OnTick()
   {
-//---
+  
+  
+  // The Bid And Ask Price 
+   double Bid=NormalizeDouble(SymbolInfoDouble(_Symbol,SYMBOL_BID),_Digits);
+  double Ask=NormalizeDouble(SymbolInfoDouble(_Symbol,SYMBOL_ASK),_Digits);
+  
+  
+//---Movement Determination
    int bulls=0,bears=0,flats=0;
    double op[],cl[];
    int sp[];
