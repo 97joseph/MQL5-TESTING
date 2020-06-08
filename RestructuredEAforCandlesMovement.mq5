@@ -29,7 +29,7 @@ input double SLIPPAGE=20;
 void OnTick()
   {
 //---
-   int bulls=0,bears=0;
+   int bulls=0,bears=0,flats=0;
    double op[],cl[];
    int sp[];
    if(CopyOpen(_Symbol,PERIOD_CURRENT,0,NumCandles,op)<0) return;
