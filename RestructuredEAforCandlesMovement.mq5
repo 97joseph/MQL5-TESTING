@@ -38,7 +38,8 @@ void OnTick()
    for(int i=0; i<NumCandles; i++)
      {
       if(cl[i]-op[i]>sp[i]*_Point) bulls++; 
-      if(op[i]-cl[i]>sp[i]*_Point) bears++; 
+      if(op[i]-cl[i]>sp[i]*_Point) bears++;
+      if(op[i]-cl[i]==sp[i]*_Point || cl[i]-op[i]==sp[i]*_Point) flats;
      }
    MessageBox(_Symbol+"   "+StringSubstr(EnumToString(_Period),7)+"\n"+
               "Candles "+IntegerToString(NumCandles)+"\n"+
