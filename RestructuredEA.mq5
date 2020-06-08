@@ -3,11 +3,18 @@
 //Adjust for multiple positions as a user input
 
 
+
+
+
+
+
+//User input Parameters
 input int NumCandles=1000;
 input int MAXIMUMPOSITIONS=3;
 input double DIRECTIONALPIPS=10;
 input double TAKEPROFITPIPS=20;
 input double STOPLOSSPIPS=20;
+
 
 
 void OnStart()
