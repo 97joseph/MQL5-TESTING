@@ -4,6 +4,8 @@
 
 
 input int NumCandles=1000;
+input int MAXIMUMPOSITIONS=3;
+input double DIRECTIONALPIPS=10;
 
 void OnStart()
   {
