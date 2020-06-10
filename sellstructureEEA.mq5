@@ -106,5 +106,5 @@ double AccountPercentStopPips(double lots) {
 
 Pretty simple, drag the script onto your chart and the inputs to change the Risk Percentage and Reward Ratio will pop up, change those values if you want to, hit the Ok button and the trade will execute.
 
-If it fails, have a look at the expert tab to see why the order failed. The script has a Risk Percentage limit of 20%. That's about it...enjoy!
+
 */
