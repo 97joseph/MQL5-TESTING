@@ -16,6 +16,7 @@ ulong StopLevel;
 //+------------------------------------------------------------------+
 //| volume                                                           |
 //+------------------------------------------------------------------+
+//+----Rework angle
 double volume()
   {
    Lots=AccountInfoDouble(ACCOUNT_FREEMARGIN)/2000;
